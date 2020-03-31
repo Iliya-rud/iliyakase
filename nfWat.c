@@ -48,8 +48,7 @@ int Ker(int **arr, int str2, int stl2){
                     for(int j=0; j<stl2; j++){
                         fprintf(fout ,"%d ", arr[i][j]);
                         }
-                    printf("\r\n");
-                    fprintf(fout, "\r\n");
+                    fprintf(fout,"\n");
                     }
                 fclose(fout);
                 printf("SUCSESS!!!\r\n");
@@ -131,7 +130,7 @@ int print(const char* filenameP){
         	for(int j=0; j<stl; j++){
         		fprintf(fout ,"%d ", arr[i][j]);
                 }
-            fprintf(fout, "\r\n");
+            fprintf(fout, "\n");
             }
         fclose(fout);
         printf("SUCSESS!!!\r\n");
