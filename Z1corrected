@@ -9,6 +9,11 @@ int Ker(int **arr, int str2, int stl2){
     int a=9;
     int summ=0;
     int e=10;
+    int pr=0;
+    printf("str2=%d\r\n",str2);
+    printf("stl2=%d\r\n",stl2);
+    pr=str2*stl2;
+    printf("pr=%d\r\n", pr);
     printf("Before (in Ker):\r\n");
     for(int i=0; i<str2; i++){//выводим массив, который поступил в функцию
         for(int j=0; j<stl2; j++){
@@ -19,13 +24,13 @@ int Ker(int **arr, int str2, int stl2){
     for(int i=0; i<str2; i++){
         for(int q=0; q<str2; q++){
             for(int j=0; j<stl2; j++){
-                summ=summ + arr[q][j];//найдем сумму элементов в строке i
+                summ=summ + arr[q][j];//найдем сумму элементов в матрице
                 }
         }
         printf("summ=%d;\r\n", summ);
         for(int p=0; p<stl2; p++){
             printf("...\r\n");
-            if((arr[i][p])*(stl2)==summ){
+            if((arr[i][p])*pr==summ){
                 e=1;
                 for(a=i; a<str2-1; a++){//удаляем строку
                     for(int j=0; j < stl2; j++){
