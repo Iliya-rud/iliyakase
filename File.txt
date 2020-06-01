@@ -1,0 +1,9 @@
+Ivan_Petrov 103 1543
+Mihail_Lubimov 105 1854
+Ivan_Erohin 106 33
+Olya_Ivanova 108 941
+Ivan_Klimov 102 25
+Evgeniy_nush 105 33
+Kirill_Medvedev 102 1543
+Katya_Voronova 103 941
+Masha_Volkov 105 18
