@@ -90,9 +90,9 @@ int main(void){
     char count_temp[512];
     int* tmp_array;
 
-    input_file = fopen("file.txt", "r");
+    input_file = fopen("File.txt", "r");
     if (!input_file){
-        printf("File 'file.txt' cannot be opened\r\n");
+        printf("File 'File.txt' cannot be opened\r\n");
         exit(-1);
     }
     else{
